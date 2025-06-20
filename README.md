@@ -34,4 +34,63 @@ A Python-based system that automates the process of:
 ---
 
 ##  Project Structure
+automated-book-publisher/
+├── agents/
+│ ├── writer.py
+│ └── reviewer.py
+├── scraper/
+│ └── scrape_chapter.py
+├── storage/
+│ └── store_version.py
+├── interface/
+│ └── human_editor.py
+├── data/
+│ └── chapter1_original.txt
+├── screenshots/
+│ └── chapter1.png
+├── chroma_storage/
+├── app.py
+├── requirements.txt
+└── README.md
+
+
+
+---
+
+## 🚀 How to Run
+
+1. **Install dependencies**:
+```bash
+pip install -r requirements.txt
+python app.py
+Follow the CLI prompts:
+
+Preview AI outputs
+
+Choose to edit, approve, or give a summary
+
+Final version is stored using ChromaDB
+
+📸 Output Example
+Screenshot saved at: screenshots/chapter1.png
+
+AI rewritten text: chapter1_original.txt
+
+Versioned copy stored in: chroma_storage/
+
+📚 Source Chapter
+The Gates of Morning – Book 1, Chapter 1
+
+ Author
+K. Yashwanth
+ Final Year BCA, AI Engineering Enthusiast
+ LinkedIn
+ GitHub
+
+📜 License
+This submission is made purely for academic and evaluation purposes.
+All original book content is sourced from the public domain.
+
+
+
 
